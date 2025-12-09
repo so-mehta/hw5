@@ -21,5 +21,6 @@ std::set<std::string> wordle(
     const std::string& in,
     const std::string& floating,
     const std::set<std::string>& dict);
+void wordle_helper(int curr_pos, int floats_left, int size, std::string& word, const std::set<std::string>& dict, std::set<std::string>& results, int* letters);
 
 #endif
